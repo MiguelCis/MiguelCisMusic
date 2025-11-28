@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiguelCis Music | Contactame</title>
+
+  <!-- Fuente moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Iconos Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon"><i class="fa fa-bars"></i></label>
+
+    <nav class="menu">
+      <a href="index.html">Inicio</a>
+      <a href="mimusica.html">Mi Música</a>
+      <a href="misversiones.html">Versiones</a>
+      <a href="#">Galería</a>
+      <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+
+    <div class="social-icons">
+      <a href="https://www.facebook.com/Sagrat10"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/musicmiguelcis"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@miguelcismusic"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="https://www.youtube.com/@MiguelCisMusic"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+  </header>
+
+  <!-- ===== CONTACTO ===== -->
+  <section class="contact-section">
+    <div class="overlay"></div>
+
+    <div class="contact-content">
+      <h1>Contáctame</h1>
+      <p>¿Tienes una propuesta, colaboración o comentario?<br>
+      Envíame un mensaje y me pondré en contacto contigo pronto.</p>
+
+      <form action="https://formspree.io/f/xqapkdlz" method="POST" class="contact-form">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 MiguelCis Music | Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
